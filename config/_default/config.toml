@@ -1,0 +1,27 @@
+baseURL = 'https://ran-n.github.io/menu/'
+languageCode = 'en'
+title = 'Menus'
+theme = 'hugo-theme-monochrome'
+defaultContentLanguage = "gz"
+enableEmoji = true
+#contentDir = 'content'
+custom_js = ["js/custom.js"]
+#relativeURLs = true
+#canonifyURLs = true
+
+googleAnalytics = "G-EDFGMBGH74"
+
+[build]
+writeStats = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup.highlight]
+codeFences = false
+lineNos = false
